@@ -26,4 +26,8 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
+
+    browser->>server: POST  https://studies.cs.helsinki.fi/exampleapp/data.json
+    activate server
+    
 ```
